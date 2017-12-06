@@ -145,6 +145,37 @@ function drawPoints(pointData){
                .attr("fill", "white")
                .text("% of shots taken from beyond the 3pt line");
 
+               svg3.append("text")
+                    .attr("x", -500)
+                    .attr("y", 390)
+                    .attr('transform', 'rotate(-90)')
+                    .attr("font-size", 15)
+                    .attr("fill", "white")
+                    .text("1. Click on a team");
+
+                    svg3.append("text")
+                         .attr("x", -500)
+                         .attr("y", 410)
+                         .attr('transform', 'rotate(-90)')
+                         .attr("font-size", 15)
+                         .attr("fill", "white")
+                         .text("2. Click on a player in scatter plot");
+
+                         svg3.append("text")
+                              .attr("x", -500)
+                              .attr("y", 430)
+                              .attr('transform', 'rotate(-90)')
+                              .attr("font-size", 15)
+                              .attr("fill", "white")
+                              .text("3. Hover over shot-chart for more information");
+
+                              svg3.append("text")
+                                   .attr("x", -500)
+                                   .attr("y", 450)
+                                   .attr('transform', 'rotate(-90)')
+                                   .attr("font-size", 15)
+                                   .attr("fill", "white")
+                                   .text("4. Green: SCORED, White: MISSED");
 
 
 

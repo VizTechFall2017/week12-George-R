@@ -76,10 +76,10 @@ color = function color(d) { if (d.shotoutcome == "SCORED") {
                            };
 
 opa = function opa(d) { if (d.shotoutcome == "SCORED") {
-                                        return "0.6"
+                                        return "0.4"
 
                             } else if (d.shotoutcome == "MISSED") {
-                                        return "0.6"
+                                        return "0.4"
                                       }
                               else {
                                         return "0.6"
@@ -88,7 +88,7 @@ opa = function opa(d) { if (d.shotoutcome == "SCORED") {
 
 
 rad = function rad(d) { if (d.shotoutcome == "SCORED") {
-                                        return "2.8"
+                                        return "3"
 
                             } else if (d.shotoutcome == "MISSED") {
                                         return "1.8"

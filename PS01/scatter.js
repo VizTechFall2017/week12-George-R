@@ -199,8 +199,8 @@ function drawPoints2(dataPoints) {
 
 function chartTitle() {
           svg.append("text")
-               .attr("x", 50)
-               .attr("y", -50)
+               .attr("x", 100)
+               .attr("y", 150)
                .attr("font-size", 14)
                .text("3-Point Field Goal Attempts, 2016");
 };
